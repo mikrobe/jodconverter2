@@ -348,7 +348,17 @@
     <family>Spreadsheet</family>
     <mime-type>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</mime-type>
     <file-extension>xlsx</file-extension>
-    <export-options/>
+    <export-options>
+      <entry>
+        <family>Spreadsheet</family>
+        <map>
+          <entry>
+            <string>FilterName</string>
+            <string>Microsoft Excel 2007 XML</string>
+          </entry>
+        </map>
+      </entry>
+    </export-options>
     <import-options/>
   </document-format>
   <document-format>
